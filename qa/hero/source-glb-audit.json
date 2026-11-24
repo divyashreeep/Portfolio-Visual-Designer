@@ -1,0 +1,1223 @@
+{
+  "sha256": "4569cd13f2c304340d3fb79322411a87c54f457bd2a0200e9764c5bdd31d62a8",
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "RY8_Central_Axle"
+    },
+    {
+      "children": [
+        0
+      ],
+      "name": "RY8_Central_Axle_Assembly"
+    },
+    {
+      "extras": {
+        "members": "Catchlight_Left, Catchlight_Right; follow respective pupils"
+      },
+      "name": "RY8_Front_Eye_Highlights"
+    },
+    {
+      "extras": {
+        "display_layer": "Digital artwork beneath optical cover; animate within the display tangent plane."
+      },
+      "mesh": 1,
+      "name": "RY8_Front_Catchlight_Left",
+      "translation": [
+        -0.0006599999032914639,
+        0.0014400000218302011,
+        -0.00006352737545967102
+      ]
+    },
+    {
+      "children": [
+        3
+      ],
+      "extras": {
+        "display_layer": "Digital artwork beneath optical cover; animate within the display tangent plane."
+      },
+      "mesh": 2,
+      "name": "RY8_Front_Pupil_Left",
+      "translation": [
+        -0.00138000026345253,
+        0.0008999999845400453,
+        -0.00008619390428066254
+      ]
+    },
+    {
+      "children": [
+        4
+      ],
+      "extras": {
+        "display_layer": "Digital artwork beneath optical cover; animate within the display tangent plane."
+      },
+      "mesh": 3,
+      "name": "RY8_Front_Eye_Left",
+      "translation": [
+        0.009000000543892384,
+        0.000750000006519258,
+        -0.017567167058587074
+      ]
+    },
+    {
+      "extras": {
+        "display_layer": "Digital artwork beneath optical cover; animate within the display tangent plane."
+      },
+      "mesh": 4,
+      "name": "RY8_Front_Catchlight_Right",
+      "translation": [
+        0.0006599999032914639,
+        0.0014400000218302011,
+        -0.00006352737545967102
+      ]
+    },
+    {
+      "children": [
+        6
+      ],
+      "extras": {
+        "display_layer": "Digital artwork beneath optical cover; animate within the display tangent plane."
+      },
+      "mesh": 5,
+      "name": "RY8_Front_Pupil_Right",
+      "translation": [
+        0.00138000026345253,
+        0.0008999999845400453,
+        -0.00008619390428066254
+      ]
+    },
+    {
+      "children": [
+        7
+      ],
+      "extras": {
+        "display_layer": "Digital artwork beneath optical cover; animate within the display tangent plane."
+      },
+      "mesh": 6,
+      "name": "RY8_Front_Eye_Right",
+      "translation": [
+        -0.009000000543892384,
+        0.000750000006519258,
+        -0.017567167058587074
+      ]
+    },
+    {
+      "mesh": 7,
+      "name": "RY8_Front_Face_Glass",
+      "translation": [
+        0,
+        0,
+        -0.017580000683665276
+      ]
+    },
+    {
+      "mesh": 8,
+      "name": "RY8_Front_Housing"
+    },
+    {
+      "extras": {
+        "purpose": "Continuous curved glass reflection over pearl and digital eye artwork.",
+        "castShadow": false,
+        "receiveShadow": false
+      },
+      "mesh": 9,
+      "name": "RY8_Front_Optical_Cover",
+      "translation": [
+        0,
+        0,
+        -0.017580000683665276
+      ]
+    },
+    {
+      "mesh": 10,
+      "name": "RY8_Front_Polished_Trim"
+    },
+    {
+      "children": [
+        2,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "name": "RY8_Front_Display_Assembly"
+    },
+    {
+      "extras": {
+        "display_layer": "Digital artwork beneath optical cover; animate within the display tangent plane."
+      },
+      "mesh": 11,
+      "name": "RY8_Rear_Catchlight_Left",
+      "translation": [
+        -0.0006599997286684811,
+        0.0014400000218302011,
+        -0.00006352676427923143
+      ]
+    },
+    {
+      "children": [
+        14
+      ],
+      "extras": {
+        "display_layer": "Digital artwork beneath optical cover; animate within the display tangent plane."
+      },
+      "mesh": 12,
+      "name": "RY8_Rear_Pupil_Left",
+      "translation": [
+        -0.0013800006126984954,
+        0.0008999999845400453,
+        -0.00008619323489256203
+      ]
+    },
+    {
+      "children": [
+        15
+      ],
+      "extras": {
+        "display_layer": "Digital artwork beneath optical cover; animate within the display tangent plane."
+      },
+      "mesh": 13,
+      "name": "RY8_Rear_Eye_Left",
+      "translation": [
+        0.009000000543892384,
+        0.000750000006519258,
+        -0.017567167058587074
+      ]
+    },
+    {
+      "extras": {
+        "display_layer": "Digital artwork beneath optical cover; animate within the display tangent plane."
+      },
+      "mesh": 14,
+      "name": "RY8_Rear_Catchlight_Right",
+      "translation": [
+        0.0006600000779144466,
+        0.0014400000218302011,
+        -0.00006352798664011061
+      ]
+    },
+    {
+      "children": [
+        17
+      ],
+      "extras": {
+        "display_layer": "Digital artwork beneath optical cover; animate within the display tangent plane."
+      },
+      "mesh": 15,
+      "name": "RY8_Rear_Pupil_Right",
+      "translation": [
+        0.0013799999142065644,
+        0.0008999999845400453,
+        -0.00008619457366876304
+      ]
+    },
+    {
+      "children": [
+        18
+      ],
+      "extras": {
+        "display_layer": "Digital artwork beneath optical cover; animate within the display tangent plane."
+      },
+      "mesh": 16,
+      "name": "RY8_Rear_Eye_Right",
+      "translation": [
+        -0.009000000543892384,
+        0.000750000006519258,
+        -0.017567167058587074
+      ]
+    },
+    {
+      "mesh": 17,
+      "name": "RY8_Rear_Face_Glass",
+      "translation": [
+        0,
+        0,
+        -0.017580000683665276
+      ]
+    },
+    {
+      "extras": {
+        "purpose": "Continuous curved glass reflection over pearl and digital eye artwork.",
+        "castShadow": false,
+        "receiveShadow": false
+      },
+      "mesh": 18,
+      "name": "RY8_Rear_Optical_Cover",
+      "translation": [
+        0,
+        0,
+        -0.017580000683665276
+      ]
+    },
+    {
+      "mesh": 19,
+      "name": "RY8_Rear_Polished_Trim"
+    },
+    {
+      "children": [
+        16,
+        19,
+        20,
+        21,
+        22
+      ],
+      "name": "RY8_Rear_Display_Assembly",
+      "rotation": [
+        0,
+        -1,
+        0,
+        4.371138828673793e-8
+      ]
+    },
+    {
+      "mesh": 20,
+      "name": "RY8_Rear_Housing"
+    },
+    {
+      "mesh": 21,
+      "name": "RY8_Rear_Inner_Polished_Ring"
+    },
+    {
+      "children": [
+        24,
+        25
+      ],
+      "name": "RY8_Rear_Housing_Assembly"
+    },
+    {
+      "children": [
+        23,
+        26
+      ],
+      "name": "RY8_Rear_Assembly"
+    },
+    {
+      "children": [
+        1,
+        13,
+        27
+      ],
+      "extras": {
+        "website_rotation_axis": "Local Y in Blender; local Z after glTF Y-up conversion."
+      },
+      "name": "RY8_Body_Spin"
+    },
+    {
+      "extras": {
+        "attachment": "Three-strand cord wraps Central_Axle at Y=0",
+        "animation_ready": "Separate braided mesh; world-space rest geometry preserved; parent String_Assembly follows product translation only."
+      },
+      "mesh": 22,
+      "name": "RY8_Braided_String",
+      "translation": [
+        -0.0038999998942017555,
+        -0.0003000000142492354,
+        0
+      ]
+    },
+    {
+      "children": [
+        29
+      ],
+      "extras": {
+        "website_control": "Independent string pivot at axle contact. Sibling of Body_Spin; sway/deform without spinning with the body."
+      },
+      "name": "RY8_String_Assembly",
+      "translation": [
+        0.0038999998942017555,
+        0.0003000000142492354,
+        0
+      ]
+    },
+    {
+      "name": "RY8_String_Axle_Anchor",
+      "translation": [
+        0.0038999998942017555,
+        0.0003000000142492354,
+        0
+      ]
+    },
+    {
+      "children": [
+        28,
+        30,
+        31
+      ],
+      "extras": {
+        "front_axis_blender": "+Y",
+        "diameter_m": 0.06,
+        "reference_scale": "Assumed 60 mm diameter; images have no scale",
+        "version": "v5-chromatic-white",
+        "web_material_note": "Use a PBR studio environment; KHR_materials_iridescence and KHR_materials_clearcoat are exported"
+      },
+      "name": "RY8_Root"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "RY8_Central_Axle_Data",
+      "index": 0,
+      "primitives": [
+        {
+          "material": "M_RY8_Chromatic_Polished_Silver",
+          "position": {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 1058,
+            "max": [
+              0.0038999998942017555,
+              0.0038999998942017555,
+              0.0076500000432133675
+            ],
+            "min": [
+              -0.0038999998942017555,
+              -0.0038999998942017555,
+              -0.0076500000432133675
+            ],
+            "type": "VEC3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "RY8_Front_Catchlight_Left_Data",
+      "index": 1,
+      "primitives": [
+        {
+          "material": "M_RY8_Catchlight",
+          "position": {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 162,
+            "max": [
+              0.0004320000298321247,
+              0.0005399999208748341,
+              0.00017392821609973907
+            ],
+            "min": [
+              -0.0004320000298321247,
+              -0.0005399999208748341,
+              0.00015259720385074615
+            ],
+            "type": "VEC3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "RY8_Front_Pupil_Left_Data",
+      "index": 2,
+      "primitives": [
+        {
+          "material": "M_RY8_White_Oval_Highlight",
+          "position": {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 386,
+            "max": [
+              0.00230999942868948,
+              0.0035100001841783524,
+              0.00017471052706241608
+            ],
+            "min": [
+              -0.002309999894350767,
+              -0.0035099999513477087,
+              0.00007668137550354004
+            ],
+            "type": "VEC3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "RY8_Front_Eye_Left_Data",
+      "index": 3,
+      "primitives": [
+        {
+          "material": "M_RY8_Black_Expressive_Eyes",
+          "position": {
+            "bufferView": 9,
+            "componentType": 5126,
+            "count": 578,
+            "max": [
+              0.005189999938011169,
+              0.007350000087171793,
+              0.00022958219051361084
+            ],
+            "min": [
+              -0.005189999938011169,
+              -0.007350000087171793,
+              -0.000012289732694625854
+            ],
+            "type": "VEC3"
+          },
+          "uv0": 578,
+          "uv1": 578
+        }
+      ]
+    },
+    {
+      "name": "RY8_Front_Catchlight_Right_Data",
+      "index": 4,
+      "primitives": [
+        {
+          "material": "M_RY8_Catchlight",
+          "position": {
+            "bufferView": 15,
+            "componentType": 5126,
+            "count": 162,
+            "max": [
+              0.0004320000298321247,
+              0.0005399999208748341,
+              0.00017392821609973907
+            ],
+            "min": [
+              -0.0004320000298321247,
+              -0.0005399999208748341,
+              0.00015259720385074615
+            ],
+            "type": "VEC3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "RY8_Front_Pupil_Right_Data",
+      "index": 5,
+      "primitives": [
+        {
+          "material": "M_RY8_White_Oval_Highlight",
+          "position": {
+            "bufferView": 17,
+            "componentType": 5126,
+            "count": 386,
+            "max": [
+              0.002309999894350767,
+              0.0035100001841783524,
+              0.00017471052706241608
+            ],
+            "min": [
+              -0.00230999942868948,
+              -0.0035099999513477087,
+              0.00007668137550354004
+            ],
+            "type": "VEC3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "RY8_Front_Eye_Right_Data",
+      "index": 6,
+      "primitives": [
+        {
+          "material": "M_RY8_Black_Expressive_Eyes",
+          "position": {
+            "bufferView": 19,
+            "componentType": 5126,
+            "count": 578,
+            "max": [
+              0.005189999938011169,
+              0.007350000087171793,
+              0.00022958219051361084
+            ],
+            "min": [
+              -0.005189999938011169,
+              -0.007350000087171793,
+              -0.000012289732694625854
+            ],
+            "type": "VEC3"
+          },
+          "uv0": 578,
+          "uv1": 578
+        }
+      ]
+    },
+    {
+      "name": "RY8_Front_Face_Glass_Data",
+      "index": 7,
+      "primitives": [
+        {
+          "material": "M_RY8_Embedded_Pearlescent_Display",
+          "position": {
+            "bufferView": 23,
+            "componentType": 5126,
+            "count": 2722,
+            "max": [
+              0.024390000849962234,
+              0.024390000849962234,
+              0.0007859999896027148
+            ],
+            "min": [
+              -0.024390000849962234,
+              -0.024390000849962234,
+              0
+            ],
+            "type": "VEC3"
+          },
+          "uv0": 2722
+        }
+      ]
+    },
+    {
+      "name": "RY8_Front_Housing_Data",
+      "index": 8,
+      "primitives": [
+        {
+          "material": "M_RY8_Chromatic_Polished_Silver",
+          "position": {
+            "bufferView": 29,
+            "componentType": 5126,
+            "count": 31905,
+            "max": [
+              0.029999999329447746,
+              0.029999999329447746,
+              -0.004225555341690779
+            ],
+            "min": [
+              -0.029999999329447746,
+              -0.029999999329447746,
+              -0.017792223021388054
+            ],
+            "type": "VEC3"
+          },
+          "uv0": 31905
+        }
+      ]
+    },
+    {
+      "name": "RY8_Front_Optical_Cover_Data",
+      "index": 9,
+      "primitives": [
+        {
+          "material": "M_RY8_Optical_Cover_Glass",
+          "position": {
+            "bufferView": 33,
+            "componentType": 5126,
+            "count": 5122,
+            "max": [
+              0.024390000849962234,
+              0.024390000849962234,
+              0.0006750000175088644
+            ],
+            "min": [
+              -0.024390000849962234,
+              -0.024390000849962234,
+              -0.00013000000035390258
+            ],
+            "type": "VEC3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "RY8_Front_Polished_Trim_Data",
+      "index": 10,
+      "primitives": [
+        {
+          "material": "M_RY8_Polished_Titanium_Separator",
+          "position": {
+            "bufferView": 36,
+            "componentType": 5126,
+            "count": 7855,
+            "max": [
+              0.02522999979555607,
+              0.02522999979555607,
+              -0.01647000014781952
+            ],
+            "min": [
+              -0.02522999979555607,
+              -0.02522999979555607,
+              -0.017190000042319298
+            ],
+            "type": "VEC3"
+          },
+          "uv0": 7855
+        }
+      ]
+    },
+    {
+      "name": "RY8_Rear_Catchlight_Left_Data",
+      "index": 11,
+      "primitives": [
+        {
+          "material": "M_RY8_Catchlight",
+          "position": {
+            "bufferView": 40,
+            "componentType": 5126,
+            "count": 162,
+            "max": [
+              0.000432000175351277,
+              0.0005399999208748341,
+              0.0001739269937388599
+            ],
+            "min": [
+              -0.0004319998843129724,
+              -0.0005399999208748341,
+              0.00015259592328220606
+            ],
+            "type": "VEC3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "RY8_Rear_Pupil_Left_Data",
+      "index": 12,
+      "primitives": [
+        {
+          "material": "M_RY8_White_Oval_Highlight",
+          "position": {
+            "bufferView": 42,
+            "componentType": 5126,
+            "count": 386,
+            "max": [
+              0.002310000592842698,
+              0.0035100001841783524,
+              0.00017471137107349932
+            ],
+            "min": [
+              -0.0023099996615201235,
+              -0.0035099999513477087,
+              0.00007667997851967812
+            ],
+            "type": "VEC3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "RY8_Rear_Eye_Left_Data",
+      "index": 13,
+      "primitives": [
+        {
+          "material": "M_RY8_Black_Expressive_Eyes",
+          "position": {
+            "bufferView": 44,
+            "componentType": 5126,
+            "count": 578,
+            "max": [
+              0.005189999472349882,
+              0.007350000087171793,
+              0.0002295815502293408
+            ],
+            "min": [
+              -0.005190000403672457,
+              -0.007350000087171793,
+              -0.0000122893970910809
+            ],
+            "type": "VEC3"
+          },
+          "uv0": 578,
+          "uv1": 578
+        }
+      ]
+    },
+    {
+      "name": "RY8_Rear_Catchlight_Right_Data",
+      "index": 14,
+      "primitives": [
+        {
+          "material": "M_RY8_Catchlight",
+          "position": {
+            "bufferView": 48,
+            "componentType": 5126,
+            "count": 162,
+            "max": [
+              0.000432000175351277,
+              0.0005399999208748341,
+              0.00017392757581546903
+            ],
+            "min": [
+              -0.0004319998843129724,
+              -0.0005399999208748341,
+              0.00015259662177413702
+            ],
+            "type": "VEC3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "RY8_Rear_Pupil_Right_Data",
+      "index": 15,
+      "primitives": [
+        {
+          "material": "M_RY8_White_Oval_Highlight",
+          "position": {
+            "bufferView": 50,
+            "componentType": 5126,
+            "count": 386,
+            "max": [
+              0.002310000127181411,
+              0.0035100001841783524,
+              0.00017471154569648206
+            ],
+            "min": [
+              -0.002309999195858836,
+              -0.0035099999513477087,
+              0.00007668090984225273
+            ],
+            "type": "VEC3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "RY8_Rear_Eye_Right_Data",
+      "index": 16,
+      "primitives": [
+        {
+          "material": "M_RY8_Black_Expressive_Eyes",
+          "position": {
+            "bufferView": 52,
+            "componentType": 5126,
+            "count": 578,
+            "max": [
+              0.005189999472349882,
+              0.007350000087171793,
+              0.00022958096815273166
+            ],
+            "min": [
+              -0.005190000403672457,
+              -0.007350000087171793,
+              -0.000012290068298170809
+            ],
+            "type": "VEC3"
+          },
+          "uv0": 578,
+          "uv1": 578
+        }
+      ]
+    },
+    {
+      "name": "RY8_Rear_Face_Glass_Data",
+      "index": 17,
+      "primitives": [
+        {
+          "material": "M_RY8_Embedded_Pearlescent_Display",
+          "position": {
+            "bufferView": 56,
+            "componentType": 5126,
+            "count": 2722,
+            "max": [
+              0.024390000849962234,
+              0.024390000849962234,
+              0.0007859999896027148
+            ],
+            "min": [
+              -0.024390000849962234,
+              -0.024390000849962234,
+              0
+            ],
+            "type": "VEC3"
+          },
+          "uv0": 2722
+        }
+      ]
+    },
+    {
+      "name": "RY8_Rear_Optical_Cover_Data",
+      "index": 18,
+      "primitives": [
+        {
+          "material": "M_RY8_Optical_Cover_Glass",
+          "position": {
+            "bufferView": 59,
+            "componentType": 5126,
+            "count": 5122,
+            "max": [
+              0.024390000849962234,
+              0.024390000849962234,
+              0.0006750000175088644
+            ],
+            "min": [
+              -0.024390000849962234,
+              -0.024390000849962234,
+              -0.00013000000035390258
+            ],
+            "type": "VEC3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "RY8_Rear_Polished_Trim_Data",
+      "index": 19,
+      "primitives": [
+        {
+          "material": "M_RY8_Polished_Titanium_Separator",
+          "position": {
+            "bufferView": 61,
+            "componentType": 5126,
+            "count": 7855,
+            "max": [
+              0.02522999979555607,
+              0.02522999979555607,
+              -0.01647000014781952
+            ],
+            "min": [
+              -0.02522999979555607,
+              -0.02522999979555607,
+              -0.017190000042319298
+            ],
+            "type": "VEC3"
+          },
+          "uv0": 7855
+        }
+      ]
+    },
+    {
+      "name": "RY8_Rear_Housing_Data",
+      "index": 20,
+      "primitives": [
+        {
+          "material": "M_RY8_Chromatic_Polished_Silver",
+          "position": {
+            "bufferView": 64,
+            "componentType": 5126,
+            "count": 9821,
+            "max": [
+              0.029999999329447746,
+              0.029999999329447746,
+              0.017352312803268433
+            ],
+            "min": [
+              -0.029999999329447746,
+              -0.029999999329447746,
+              0.0038988888263702393
+            ],
+            "type": "VEC3"
+          },
+          "uv0": 9821
+        }
+      ]
+    },
+    {
+      "name": "RY8_Rear_Inner_Polished_Ring_Data",
+      "index": 21,
+      "primitives": [
+        {
+          "material": "M_RY8_Chromatic_Polished_Silver",
+          "position": {
+            "bufferView": 68,
+            "componentType": 5126,
+            "count": 1920,
+            "max": [
+              0.025304999202489853,
+              0.025304999202489853,
+              0.010815000161528587
+            ],
+            "min": [
+              -0.025304999202489853,
+              -0.025304999202489853,
+              0.010604999959468842
+            ],
+            "type": "VEC3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "RY8_Braided_String_Data",
+      "index": 22,
+      "primitives": [
+        {
+          "material": "M_RY8_White_Braided_Cotton",
+          "position": {
+            "bufferView": 71,
+            "componentType": 5126,
+            "count": 10926,
+            "max": [
+              0.07802129536867142,
+              0.000560726854018867,
+              0.00035276912967674434
+            ],
+            "min": [
+              0.002822685055434704,
+              -0.03273337706923485,
+              -0.004552964586764574
+            ],
+            "type": "VEC3"
+          },
+          "uv0": 10926
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatRoughnessFactor": 0.07999999821186066
+        }
+      },
+      "extras": {
+        "finish": "Polished silver with weak-IOR optical thin-film coating; no rainbow base-color texture"
+      },
+      "name": "M_RY8_Chromatic_Polished_Silver",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8199999928474426,
+          0.8399999737739563,
+          0.8700000047683716,
+          1
+        ],
+        "roughnessFactor": 0.18000000715255737
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0.3499999940395355,
+        0.3499999940395355,
+        0.3499999940395355
+      ],
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatRoughnessFactor": 0.05999999865889549
+        },
+        "KHR_materials_specular": {
+          "specularFactor": 0.20000000298023224
+        },
+        "KHR_materials_ior": {
+          "ior": 1.4800000190734863
+        }
+      },
+      "name": "M_RY8_Catchlight",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9399999976158142,
+          0.9599999785423279,
+          0.9800000190734863,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.30000001192092896
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0.3499999940395355,
+        0.3499999940395355,
+        0.3499999940395355
+      ],
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatRoughnessFactor": 0.054999999701976776
+        },
+        "KHR_materials_specular": {
+          "specularFactor": 0.20000000298023224
+        },
+        "KHR_materials_ior": {
+          "ior": 1.4800000190734863
+        }
+      },
+      "name": "M_RY8_White_Oval_Highlight",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9399999976158142,
+          0.9599999785423279,
+          0.9800000190734863,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.30000001192092896
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0.11999999731779099,
+          "clearcoatRoughnessFactor": 0.07000000029802322
+        },
+        "KHR_materials_specular": {
+          "specularFactor": 0.30000001192092896
+        },
+        "KHR_materials_ior": {
+          "ior": 1.4800000190734863
+        }
+      },
+      "name": "M_RY8_Black_Expressive_Eyes",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 1
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.23999999463558197
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0.11999999731779099,
+        0.11999999731779099,
+        0.11999999731779099
+      ],
+      "emissiveTexture": {
+        "index": 1
+      },
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0.3199999928474426,
+          "clearcoatRoughnessFactor": 0.04500000178813934
+        },
+        "KHR_materials_iridescence": {
+          "iridescenceIor": 1.1799999475479126,
+          "iridescenceFactor": 0.18000000715255737,
+          "iridescenceThicknessMaximum": 425,
+          "iridescenceThicknessMinimum": 285,
+          "iridescenceThicknessTexture": {
+            "index": 2
+          }
+        }
+      },
+      "extras": {
+        "finish": "V6 nacre display substrate beneath one continuous, curved optical cover glass."
+      },
+      "name": "M_RY8_Embedded_Pearlescent_Display",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.08500000089406967
+      }
+    },
+    {
+      "extensions": {
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1
+        },
+        "KHR_materials_ior": {
+          "ior": 1.4600000381469727
+        }
+      },
+      "extras": {
+        "construction": "55 micrometre optical cover over recessed pearl display and independently animatable artwork."
+      },
+      "name": "M_RY8_Optical_Cover_Glass",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "roughnessFactor": 0.017999999225139618
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatRoughnessFactor": 0.05999999865889549
+        }
+      },
+      "name": "M_RY8_Polished_Titanium_Separator",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7200000286102295,
+          0.75,
+          0.800000011920929,
+          1
+        ],
+        "roughnessFactor": 0.11999999731779099
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatRoughnessFactor": 0.05999999865889549
+        },
+        "KHR_materials_specular": {
+          "specularFactor": 0.5
+        },
+        "KHR_materials_sheen": {
+          "sheenColorFactor": [
+            1,
+            1,
+            1
+          ],
+          "sheenRoughnessFactor": 0.7200000286102295
+        },
+        "KHR_materials_ior": {
+          "ior": 1.4800000190734863
+        }
+      },
+      "name": "M_RY8_White_Braided_Cotton",
+      "normalTexture": {
+        "index": 4,
+        "scale": 0.2800000011920929
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9100000262260437,
+          0.8999999761581421,
+          0.8700000047683716,
+          1
+        ],
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 5
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "bufferView": 14,
+      "mimeType": "image/png",
+      "name": "black-eye-white-dot"
+    },
+    {
+      "bufferView": 27,
+      "mimeType": "image/png",
+      "name": "cool-nacre-substrate"
+    },
+    {
+      "bufferView": 28,
+      "mimeType": "image/png",
+      "name": "pearl-optical-thickness"
+    },
+    {
+      "bufferView": 75,
+      "mimeType": "image/png",
+      "name": "cotton-fibre-normal"
+    },
+    {
+      "bufferView": 76,
+      "mimeType": "image/png",
+      "name": "cotton-fibre-roughness"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    }
+  ],
+  "animations": []
+}

@@ -1,0 +1,22 @@
+{
+  "desktop": {
+    "frames": 450,
+    "instances": 1,
+    "startTime": 0.014,
+    "endTime": 7.5,
+    "maxAxleEndpointError": 1.1368683772161603e-13,
+    "mountFrames": 30,
+    "maxDiameterStep": 0.003605643290157723,
+    "timeMonotonic": true
+  },
+  "mobile": {
+    "frames": 452,
+    "instances": 1,
+    "startTime": 0.016,
+    "endTime": 7.5,
+    "maxAxleEndpointError": 6.355287432313019e-14,
+    "mountFrames": 30,
+    "maxDiameterStep": 0.0027388737807373387,
+    "timeMonotonic": true
+  }
+}

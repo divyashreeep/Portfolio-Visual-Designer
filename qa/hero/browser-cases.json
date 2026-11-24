@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Up",
+    "body": "-0.3687,-0.0444",
+    "events": [
+      {
+        "index": 14,
+        "source": "trace",
+        "time": 2.474999999999994,
+        "type": "grab"
+      },
+      {
+        "payout": -0.01699999999999846,
+        "speed": 0.5844233200593578,
+        "time": 3.591666666666657,
+        "type": "release"
+      }
+    ],
+    "state": "release",
+    "stretch": "0.0001"
+  },
+  {
+    "name": "Down",
+    "body": "-0.3639,-0.1280",
+    "events": [
+      {
+        "index": 14,
+        "source": "trace",
+        "time": 7.416666666666825,
+        "type": "grab"
+      },
+      {
+        "payout": 0.09975000000000378,
+        "speed": 0.2766738680330298,
+        "time": 8.525000000000157,
+        "type": "release"
+      }
+    ],
+    "state": "release",
+    "stretch": "0.0013"
+  },
+  {
+    "name": "Left",
+    "body": "-0.5169,-0.1280",
+    "events": [
+      {
+        "index": 14,
+        "source": "trace",
+        "time": 12.041666666666623,
+        "type": "grab"
+      },
+      {
+        "payout": -0.023999999999998575,
+        "speed": 0.6303095412725312,
+        "time": 13.133333333333228,
+        "type": "release"
+      }
+    ],
+    "state": "release",
+    "stretch": "0.0004"
+  },
+  {
+    "name": "Right",
+    "body": "-0.0233,-0.1280",
+    "events": [
+      {
+        "index": 14,
+        "source": "trace",
+        "time": 16.524999999999704,
+        "type": "grab"
+      },
+      {
+        "payout": -0.06949999999999923,
+        "speed": 0.054094298704951554,
+        "time": 17.62499999999964,
+        "type": "release"
+      }
+    ],
+    "state": "release",
+    "stretch": "0.0002"
+  },
+  {
+    "name": "Diagonal",
+    "body": "-0.0467,-0.1280",
+    "events": [
+      {
+        "index": 14,
+        "source": "trace",
+        "time": 20.958333333332785,
+        "type": "grab"
+      },
+      {
+        "payout": -0.07774999999999932,
+        "speed": 0.04357299071348876,
+        "time": 22.074999999999388,
+        "type": "release"
+      }
+    ],
+    "state": "release",
+    "stretch": "0.0000"
+  },
+  {
+    "name": "Fast pull",
+    "body": "0.0238,-0.1246",
+    "events": [
+      {
+        "index": 14,
+        "source": "trace",
+        "time": 25.449999999999196,
+        "type": "grab"
+      },
+      {
+        "payout": -0.023249999999999993,
+        "speed": 0.22032702171748633,
+        "time": 25.69166666666585,
+        "type": "release"
+      }
+    ],
+    "state": "release",
+    "stretch": "0.0000"
+  },
+  {
+    "name": "Slow pull",
+    "body": "-0.1107,-0.1280",
+    "events": [
+      {
+        "index": 14,
+        "source": "trace",
+        "time": 29.41666666666564,
+        "type": "grab"
+      },
+      {
+        "payout": -0.16699999999999915,
+        "speed": 0.0170905278210417,
+        "time": 31.43333333333219,
+        "type": "release"
+      }
+    ],
+    "state": "release",
+    "stretch": "0.0000"
+  }
+]

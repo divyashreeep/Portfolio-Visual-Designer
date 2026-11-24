@@ -1,0 +1,26 @@
+{
+  "desktop": {
+    "frames": 481,
+    "preloadFrames": 1,
+    "first": 0,
+    "last": 8,
+    "instances": [
+      "66fc1e1d-ef33-4b0c-945b-e51e8a5fe1d9"
+    ],
+    "maxAxleError": 0.00673738139847531,
+    "noEarlyColour": true,
+    "noEarlyHome": true
+  },
+  "mobile": {
+    "frames": 482,
+    "preloadFrames": 1,
+    "first": 0,
+    "last": 8,
+    "instances": [
+      "56901c11-d018-4d2d-9104-2febc782c825"
+    ],
+    "maxAxleError": 0.006890378195209893,
+    "noEarlyColour": true,
+    "noEarlyHome": true
+  }
+}

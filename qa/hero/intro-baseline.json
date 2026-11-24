@@ -1,0 +1,8 @@
+{
+  "src/choreography.js": "0f8ef38afef493257c3f878e0d3a01543870ba0c8b0be3416f0a20211244826f",
+  "src/DoubleOrNothing.js": "3bc884ef30d6bf671caab2b7f55bf5fceb5679599dc74e1d405d12fa4ad70fb1",
+  "src/FingerRig.js": "5331e9528e9448106c4d515f3ed59c2849698acea82361149fd6b0102d28a39d",
+  "src/StringRig.js": "063dbbcc712f461c95976a4d7085047ca081282996533020d571fa146e3a299c",
+  "src/SvgHands.jsx": "8b2a8bc886bf5c0cbe6aef3313ed547746ba6e749b6cfea4962686f8fff58361",
+  "src/sceneConfig.js": "250bf3ccde75bcab23b83c6b067f0ee71041aad41cf0dc7ccd402615a3909a07"
+}

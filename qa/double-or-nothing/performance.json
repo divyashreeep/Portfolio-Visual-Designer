@@ -1,0 +1,9 @@
+{
+  "dpr": 1,
+  "meter": "Frame intervals: median 16.7 ms · p95 16.8 ms · mean 16.7 ms (135 frames, this browser)",
+  "metrics": "{\"scope\":\"last renderer pass; not total GPU frame cost\",\"lastPassDrawCalls\":1,\"lastPassTriangles\":2,\"geometries\":38,\"textures\":8,\"programs\":10}",
+  "viewport": [
+    1440,
+    900
+  ]
+}

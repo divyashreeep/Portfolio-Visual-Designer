@@ -1,0 +1,282 @@
+[
+  {
+    "kind": "up",
+    "duration": 1.2,
+    "fps": 60,
+    "reduced": false,
+    "viewport": [
+      1440,
+      900
+    ],
+    "maxStretch": 0.0009017553495180852,
+    "maxSpeed": 0.47083485908504746,
+    "releaseSpeed": 0.15567616097663214,
+    "releaseBody": [
+      -0.1498005741536454,
+      -0.12799567750643936
+    ],
+    "maxYaw": 0.034812525205726405,
+    "settleTime": 3.2,
+    "revealedRear": false
+  },
+  {
+    "kind": "down",
+    "duration": 1.2,
+    "fps": 60,
+    "reduced": false,
+    "viewport": [
+      1440,
+      900
+    ],
+    "maxStretch": 0.04643859765401248,
+    "maxSpeed": 1.0489494245995334,
+    "releaseSpeed": 0.2621125662318689,
+    "releaseBody": [
+      -0.2580750023602436,
+      -0.12284244105266148
+    ],
+    "maxYaw": 0.05138407220834025,
+    "settleTime": 3.4833333333333334,
+    "revealedRear": false
+  },
+  {
+    "kind": "left",
+    "duration": 1.2,
+    "fps": 60,
+    "reduced": false,
+    "viewport": [
+      1440,
+      900
+    ],
+    "maxStretch": 0.004069422147388035,
+    "maxSpeed": 0.7270747973184619,
+    "releaseSpeed": 0,
+    "releaseBody": [
+      -0.42800000000000005,
+      -0.128
+    ],
+    "maxYaw": 0.05740487904491868,
+    "settleTime": 3.15,
+    "revealedRear": false
+  },
+  {
+    "kind": "right",
+    "duration": 1.2,
+    "fps": 60,
+    "reduced": false,
+    "viewport": [
+      1440,
+      900
+    ],
+    "maxStretch": 0.006257551552943941,
+    "maxSpeed": 0.42665637436671083,
+    "releaseSpeed": 0.09530036886228707,
+    "releaseBody": [
+      0.0004988263649549435,
+      -0.128
+    ],
+    "maxYaw": 0.03617930033895312,
+    "settleTime": 3.283333333333333,
+    "revealedRear": false
+  },
+  {
+    "kind": "diagonal",
+    "duration": 1.2,
+    "fps": 60,
+    "reduced": false,
+    "viewport": [
+      1440,
+      900
+    ],
+    "maxStretch": 0.0011811653269109268,
+    "maxSpeed": 0.4357040738726328,
+    "releaseSpeed": 0.03831017629521011,
+    "releaseBody": [
+      0.03831739620467785,
+      -0.128
+    ],
+    "maxYaw": 0.011781282916904456,
+    "settleTime": 3.5166666666666666,
+    "revealedRear": false
+  },
+  {
+    "kind": "circle",
+    "duration": 2.4,
+    "fps": 60,
+    "reduced": false,
+    "viewport": [
+      1440,
+      900
+    ],
+    "maxStretch": 0.01026565217972486,
+    "maxSpeed": 0.6248330727609663,
+    "releaseSpeed": 0,
+    "releaseBody": [
+      -0.42800000000000005,
+      -0.128
+    ],
+    "maxYaw": 3.2227889906020373,
+    "settleTime": 3.2333333333333334,
+    "revealedRear": true
+  },
+  {
+    "kind": "diagonal",
+    "duration": 0.22,
+    "fps": 60,
+    "reduced": false,
+    "viewport": [
+      1440,
+      900
+    ],
+    "maxStretch": 0.010246562450797025,
+    "maxSpeed": 0.4206976178630354,
+    "releaseSpeed": 0.21319371152288585,
+    "releaseBody": [
+      0.04971479991854316,
+      -0.11082503980770765
+    ],
+    "maxYaw": 0.05271190566067903,
+    "settleTime": 3.566666666666667,
+    "revealedRear": false
+  },
+  {
+    "kind": "diagonal",
+    "duration": 2,
+    "fps": 60,
+    "reduced": false,
+    "viewport": [
+      1440,
+      900
+    ],
+    "maxStretch": 0.0010245202448697643,
+    "maxSpeed": 0.441269281990737,
+    "releaseSpeed": 0.011885139589029604,
+    "releaseBody": [
+      -0.027546752110046587,
+      -0.12798603773227205
+    ],
+    "maxYaw": 0.025788117467343274,
+    "settleTime": 3.1333333333333333,
+    "revealedRear": false
+  },
+  {
+    "kind": "diagonal",
+    "duration": 1.2,
+    "fps": 30,
+    "reduced": false,
+    "viewport": [
+      1440,
+      900
+    ],
+    "maxStretch": 0.00045241444771471073,
+    "maxSpeed": 0.4280871678064035,
+    "releaseSpeed": 0.009201177945039017,
+    "releaseBody": [
+      -0.0053611532454560734,
+      -0.128
+    ],
+    "maxYaw": 0.015605606589573438,
+    "settleTime": 3.3333333333333335,
+    "revealedRear": false
+  },
+  {
+    "kind": "diagonal",
+    "duration": 1.2,
+    "fps": 120,
+    "reduced": false,
+    "viewport": [
+      1440,
+      900
+    ],
+    "maxStretch": 0.008688263158498799,
+    "maxSpeed": 0.443296928876964,
+    "releaseSpeed": 0.024184313498690768,
+    "releaseBody": [
+      0.03135735483913683,
+      -0.128
+    ],
+    "maxYaw": 0.01331599461595882,
+    "settleTime": 3.4,
+    "revealedRear": false
+  },
+  {
+    "kind": "circle",
+    "duration": 2.4,
+    "fps": 60,
+    "reduced": true,
+    "viewport": [
+      1440,
+      900
+    ],
+    "maxStretch": 0.010613633561483704,
+    "maxSpeed": 0.2175713967716374,
+    "releaseSpeed": 0.0363925075012391,
+    "releaseBody": [
+      0.031231727140038103,
+      -0.08933403287239848
+    ],
+    "maxYaw": 0.009166659767249487,
+    "settleTime": 4.066666666666666,
+    "revealedRear": false
+  },
+  {
+    "kind": "diagonal",
+    "duration": 1.2,
+    "fps": 60,
+    "reduced": false,
+    "viewport": [
+      390,
+      844
+    ],
+    "maxStretch": 0.0052908181135764565,
+    "maxSpeed": 0.6678802525391019,
+    "releaseSpeed": 0.07501984376837785,
+    "releaseBody": [
+      0.03456568690437016,
+      -0.3051832070738363
+    ],
+    "maxYaw": 3.1403208368799334,
+    "settleTime": 2.966666666666667,
+    "revealedRear": true
+  },
+  {
+    "kind": "diagonal",
+    "duration": 1.2,
+    "fps": 60,
+    "reduced": false,
+    "viewport": [
+      320,
+      568
+    ],
+    "maxStretch": 0.007552150765668841,
+    "maxSpeed": 0.6350190117139259,
+    "releaseSpeed": 0.08850414465281105,
+    "releaseBody": [
+      0.02282812247992887,
+      -0.26247626906173716
+    ],
+    "maxYaw": 3.1401379413582804,
+    "settleTime": 3.1,
+    "revealedRear": true
+  },
+  {
+    "kind": "diagonal",
+    "duration": 1.2,
+    "fps": 60,
+    "reduced": false,
+    "viewport": [
+      768,
+      1024
+    ],
+    "maxStretch": 0.0077880632138849215,
+    "maxSpeed": 0.47860392839043575,
+    "releaseSpeed": 0.10413205776877799,
+    "releaseBody": [
+      0.0267785693818507,
+      -0.16519991479576915
+    ],
+    "maxYaw": 3.1419319787895432,
+    "settleTime": 3.033333333333333,
+    "revealedRear": true
+  }
+]

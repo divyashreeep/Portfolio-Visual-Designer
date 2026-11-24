@@ -1,0 +1,16 @@
+{
+  "desktop": {
+    "frames": 468,
+    "instances": 1,
+    "lastTime": 7.8,
+    "maxRenderedAxleErrorPx": 0.006905195219785364,
+    "mountFrames": 30
+  },
+  "mobile": {
+    "frames": 470,
+    "instances": 1,
+    "lastTime": 7.8,
+    "maxRenderedAxleErrorPx": 0.006777379994003177,
+    "mountFrames": 30
+  }
+}

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.log
+
+# Local reference recordings and supplied QA reference images
+qa/**/source-recording*
+qa/source-recording*
+qa/**/material-reference.png
+qa/**/instructional-reference.png
+.env
+.env.*
+!.env.example

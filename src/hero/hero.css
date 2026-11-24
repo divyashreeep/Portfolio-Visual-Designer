@@ -1,0 +1,23 @@
+@font-face{font-family:'Clash Display';src:url('/fonts/ClashDisplay-Regular.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Clash Display';src:url('/fonts/ClashDisplay-Medium.woff2') format('woff2');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:'Clash Display';src:url('/fonts/ClashDisplay-Semibold.woff2') format('woff2');font-weight:600;font-style:normal;font-display:swap}
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.hero-ui{display:contents;font-family:'Clash Display',sans-serif}.hero-headline{margin:0;font:inherit}.home-bit{opacity:var(--home);pointer-events:none}.arrived .home-bit{pointer-events:auto}
+.hero-heading-top,.hero-heading-bottom{position:absolute;display:block;color:#F8F7F3;font-family:'Clash Display',sans-serif;font-size:clamp(76px,10.2vw,190px);font-weight:600;line-height:.82;letter-spacing:-.045em;white-space:nowrap;pointer-events:none!important}
+.hero-heading-top{left:5.1%;top:16%;z-index:1;word-spacing:.20em}.hero-heading-bottom{right:4.6%;bottom:8.7%;z-index:3}
+.hero-nav{position:absolute;left:3.8%;bottom:5.1%;z-index:5;display:flex;flex-direction:column;align-items:flex-start;gap:6px;font:500 clamp(11px,.95vw,14px)/1.2 'Clash Display',sans-serif;letter-spacing:.01em;word-spacing:.20em;color:#F8F7F3}
+.hero-nav button{padding:3px 0}.hero-nav button::after{content:'';display:block;width:100%;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .18s}.hero-nav button:hover::after,.hero-nav button:focus-visible::after{transform:scaleX(1)}
+.hero-instruction{position:absolute;right:5%;top:6%;z-index:5;color:#F8F7F3;font:400 13px/1.3 'Clash Display',sans-serif;padding:8px 0;letter-spacing:.015em;word-spacing:.12em;transition:opacity .35s}
+.hero-instruction.has-played{opacity:0;pointer-events:none}.hero-instruction.has-played:focus-visible{opacity:1;pointer-events:auto}
+.hero-input-surface{position:absolute;inset:0;z-index:4;pointer-events:none}.hero-thread-input{width:100%;height:100%;overflow:hidden;pointer-events:none}.thread-hit{fill:none;stroke:transparent;stroke-width:32;pointer-events:stroke;cursor:grab;touch-action:none}.hero-input-surface[data-state='grab'] .thread-hit,.hero-input-surface[data-state='play'] .thread-hit{cursor:grabbing}.thread-hover{fill:none;stroke:#F8F7F3;stroke-width:3;opacity:0;pointer-events:none}.hero-input-surface:has(.thread-hit:hover) .thread-hover{opacity:.12}
+.hero-dialog{font-family:'Clash Display',sans-serif;max-width:560px;padding:64px 48px 45px}.hero-dialog h2{font-family:inherit;font-size:clamp(36px,5vw,58px);font-weight:500;letter-spacing:-.045em;margin:26px 0 22px}.hero-dialog p{font-family:inherit}.hero-dialog-label{font-size:11px!important;letter-spacing:.06em}.hero-dialog-close{position:absolute;right:25px;top:22px;font-size:11px;border-bottom:1px solid}
+.arrived .rig>path,.arrived .rig>g{visibility:hidden}
+@media(max-width:650px){.hero-heading-top{font-size:13.2vw;top:15%;left:6%;letter-spacing:-.035em}.hero-heading-bottom{font-size:17vw;right:5.5%;bottom:28%;letter-spacing:-.045em}.hero-nav{left:6%;bottom:5%;font-size:12px;gap:8px}.hero-instruction{right:6%;top:5%;font-size:11px}.thread-hit{stroke-width:44}.hero-dialog{padding:60px 28px 32px}}
+@media(prefers-reduced-motion:reduce){.hero-instruction,.hero-nav button::after{transition:none}}
+
+.toy-lab{position:absolute;z-index:10;top:80px;right:20px;background:#F8F7F3;color:#0000CC;padding:16px;max-width:160px;font:12px "Clash Display",sans-serif}.toy-lab p{margin:0 0 10px}.toy-lab button{display:block;padding:6px 0}.toy-lab output{display:block;margin-top:10px}.toy-prototype .hero-heading-top,.toy-prototype .hero-heading-bottom,.toy-prototype .hero-nav{visibility:hidden}
+
+
+
+
+@media(max-width:650px){.hero-nav{gap:0}.hero-nav button{min-height:44px;min-width:88px;text-align:left;padding:8px 0}}
