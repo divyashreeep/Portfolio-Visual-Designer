@@ -1,0 +1,47 @@
+{
+  "before": {
+    "point": [
+      349.13,
+      784.89
+    ],
+    "yaw": "1.452"
+  },
+  "after": {
+    "axle": "-1.46738,-0.96636,-0.00000",
+    "end": "-1.46738,-0.96636,-0.00000",
+    "events": [
+      {
+        "time": 0,
+        "type": "rest"
+      },
+      {
+        "index": 14,
+        "interrupted": "rest",
+        "source": "trace",
+        "time": 0,
+        "type": "grab",
+        "yaw": 0
+      },
+      {
+        "time": 1.066666666666665,
+        "type": "rear-reveal"
+      },
+      {
+        "index": 0,
+        "interrupted": "play",
+        "source": "mouse",
+        "time": 1.4916666666666638,
+        "type": "grab",
+        "yaw": 1.5200346801890885
+      },
+      {
+        "payout": -0.07099999999999218,
+        "speed": 0.308752482437317,
+        "time": 1.624999999999997,
+        "type": "release"
+      }
+    ],
+    "face": "rear",
+    "state": "release"
+  }
+}

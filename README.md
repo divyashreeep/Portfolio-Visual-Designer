@@ -1,20 +1,23 @@
 # Divya — interactive yo-yo portfolio
 
-An eight-second React/R3F introduction followed by an interactive thread-driven hero. The hero uses local Clash Display fonts and the original GLB. Loading-screen hand choreography is unchanged by the hero work. Nothing has been published.
+An eight-second React/R3F introduction followed by an interactive thread-driven hero. The hero uses local Clash Display fonts and the original GLB. Loading-screen hand choreography is unchanged by the hero work. The deployment source is the GitHub repository connected to Vercel.
 
 ## Interactive hero
 
 Open `http://127.0.0.1:4173/?hero=1` after starting the built preview to go directly to the hero. The normal root URL plays the existing intro first.
 
 - Grab the visible thread and pull; the selected rope particle becomes a temporary constraint. The body responds through the cord, then settles after release.
-- Focus “Go ahead. Pull the string.” Press Space to grab, arrows to pull, Space to release, or Escape/Home to recover. Clicking the instruction gives a short tug. Reduced motion bounds travel and disables large turns.
+- Focus the “Pull to play.” endpoint control. Press Space to grab, arrows to pull, Space to release, or Escape/Home to recover. Reduced motion bounds travel and disables continuous idle movement and large turns.
 - PROJECTS and CONTACT intentionally show development placeholders; ABOUT ME has the supplied portfolio positioning.
 - `src/hero/HeroPhysics.js`: fixed-step constraints, gravity, damping, momentum, winding and interaction-driven turning. Coordinates are viewport-height units. `TOY` and `heroLayout` expose tuning.
+- `IDLE` in that same file controls the reusable resting motion: small body translation/tilt with damped thread follow-through, blended in over 1.8 seconds. Both initial and post-play rest use the same fixed-step path. A grab preserves its current particle pose and velocity.
 - `src/hero/HeroThread.jsx`: persistent dynamic tube geometry, axle-plane routing, projected hit area, shared R3F loop and the short authored handoff before physics takes control.
 - `src/hero/HomeHero.jsx` and `hero.css`: layered HTML typography, pointer capture, keyboard controls, panels and responsive composition.
 - `?hero=1&prototype=1&heroDebug=1` opens the isolated gesture test interface. Debug traces and metrics are bounded and absent from the normal hero.
 
 Run `node scripts/check-hero-physics.mjs` for solver scenarios and protected loading-animation hashes. Browser evidence and limitations are in `qa/hero/REVIEW.md`.
+
+Run `node scripts/check-hero-idle.mjs` for recurring idle, interruption, sustained motion and reduced-motion checks. `qa/hero/idle/REVIEW.md` records ten browser interaction cycles and the unattended post-play hold. Cue restoration follows the solver's settled state, rather than a reminder timeout. The initial demonstration still plays at most once per entry.
 
 The pearlescent faces are the LED displays, as clarified by the user. Both original faces and their embedded artwork/materials remain intact; no new display graphics are introduced. The hero uses a controlled planar rope solver with an axle-plane exit, rather than full 3D rope/body collision simulation.
 
@@ -55,3 +58,9 @@ Pearl colour/emissive textures, iridescence thickness, UV sets, clearcoat, rough
 The thread is a continuous screen-space route, attached to skinned finger surfaces and the projected GLB axle. Its near/far contact layering is authored; it is not an invariant-length 3D rope/collision solver. Wide hand spacing and readable motion are prioritised over exact physical string-length conservation.
 
 Current evidence: `qa/final-correction/REVIEW.md`, named desktop states, desktop/mobile live phase captures and playback traces. Older QA folders and engraved-rig scripts refer to superseded implementations. Physical mobile hardware, other browser engines and GPU context-loss stress testing remain untested. Vite retains its large JavaScript chunk advisory.
+
+## Deployment
+
+Repository: https://github.com/divyashreeep/Portfolio-Visual-Designer — production source branch: `main`.
+
+Vercel settings: framework `Vite`, build command `npm run build`, output directory `dist`, install command `npm ci`. The project root contains `package.json` and `vite.config.js`; no server runtime or environment variables are needed. The connected Vercel project handles deployment after pushes to `main`.

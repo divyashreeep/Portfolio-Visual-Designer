@@ -1,0 +1,712 @@
+{
+  "rapid": [
+    {
+      "run": 1,
+      "before": {
+        "face": "front",
+        "grabs": 0,
+        "height": 840,
+        "point": [
+          135.64,
+          615.55
+        ],
+        "state": "rest",
+        "width": 1105
+      },
+      "after": {
+        "axle": "-0.47781,-0.96637,0.00000",
+        "end": "-0.47781,-0.96637,0.00000",
+        "events": [
+          {
+            "index": 4,
+            "source": "mouse",
+            "time": 0,
+            "type": "grab"
+          },
+          {
+            "time": 0.05,
+            "type": "rear-reveal"
+          },
+          {
+            "payout": -0.014999999999998348,
+            "speed": 0.3623271090024384,
+            "time": 0.125,
+            "type": "release"
+          }
+        ],
+        "face": "front",
+        "grabs": 1,
+        "state": "release",
+        "stretch": "0.0001",
+        "yaw": "0.808"
+      },
+      "passed": true
+    },
+    {
+      "run": 2,
+      "before": {
+        "face": "front",
+        "grabs": 1,
+        "height": 840,
+        "point": [
+          643.8,
+          196.44
+        ],
+        "state": "release",
+        "width": 1105
+      },
+      "after": {
+        "axle": "-1.15982,-0.57166,0.00000",
+        "end": "-1.15982,-0.57166,0.00000",
+        "events": [
+          {
+            "payout": -0.014999999999998348,
+            "speed": 0.3623271090024384,
+            "time": 0.125,
+            "type": "release"
+          },
+          {
+            "index": 5,
+            "source": "mouse",
+            "time": 0.3416666666666669,
+            "type": "grab"
+          },
+          {
+            "payout": -0.030999999999996582,
+            "speed": 0.8873716500074526,
+            "time": 0.47500000000000064,
+            "type": "release"
+          }
+        ],
+        "face": "front",
+        "grabs": 2,
+        "state": "release",
+        "stretch": "0.0000",
+        "yaw": "2.038"
+      },
+      "passed": true
+    },
+    {
+      "run": 3,
+      "before": {
+        "face": "front",
+        "grabs": 2,
+        "height": 840,
+        "point": [
+          416.83,
+          121.53
+        ],
+        "state": "release",
+        "width": 1105
+      },
+      "after": {
+        "axle": "0.42759,-0.11543,0.00000",
+        "end": "0.42759,-0.11543,0.00000",
+        "events": [
+          {
+            "payout": -0.030999999999996582,
+            "speed": 0.8873716500074526,
+            "time": 0.47500000000000064,
+            "type": "release"
+          },
+          {
+            "index": 5,
+            "source": "mouse",
+            "time": 0.6583333333333334,
+            "type": "grab"
+          },
+          {
+            "payout": -0.046999999999994824,
+            "speed": 0.7992876965663344,
+            "time": 0.7916666666666663,
+            "type": "release"
+          }
+        ],
+        "face": "rear",
+        "grabs": 3,
+        "state": "release",
+        "stretch": "0.0000",
+        "yaw": "2.854"
+      },
+      "passed": true
+    },
+    {
+      "run": 4,
+      "before": {
+        "face": "rear",
+        "grabs": 3,
+        "height": 840,
+        "point": [
+          643.17,
+          56.48
+        ],
+        "state": "release",
+        "width": 1105
+      },
+      "after": {
+        "axle": "1.27503,-0.96637,0.00000",
+        "end": "1.27503,-0.96637,0.00000",
+        "events": [
+          {
+            "payout": -0.046999999999994824,
+            "speed": 0.7992876965663344,
+            "time": 0.7916666666666663,
+            "type": "release"
+          },
+          {
+            "index": 4,
+            "source": "mouse",
+            "time": 1.0416666666666654,
+            "type": "grab"
+          },
+          {
+            "payout": -0.06299999999999306,
+            "speed": 0.48743527396296055,
+            "time": 1.1749999999999985,
+            "type": "release"
+          }
+        ],
+        "face": "rear",
+        "grabs": 4,
+        "state": "release",
+        "stretch": "0.0000",
+        "yaw": "3.131"
+      },
+      "passed": true
+    },
+    {
+      "run": 5,
+      "before": {
+        "face": "rear",
+        "grabs": 4,
+        "height": 840,
+        "point": [
+          395.37,
+          232.75
+        ],
+        "state": "release",
+        "width": 1105
+      },
+      "after": {
+        "axle": "1.36283,-0.96637,-0.00000",
+        "end": "1.36283,-0.96637,-0.00000",
+        "events": [
+          {
+            "payout": -0.046999999999994824,
+            "speed": 0.7992876965663344,
+            "time": 0.7916666666666663,
+            "type": "release"
+          },
+          {
+            "index": 4,
+            "source": "mouse",
+            "time": 1.0416666666666654,
+            "type": "grab"
+          },
+          {
+            "payout": -0.06299999999999306,
+            "speed": 0.48743527396296055,
+            "time": 1.1749999999999985,
+            "type": "release"
+          }
+        ],
+        "face": "rear",
+        "grabs": 4,
+        "state": "release",
+        "stretch": "0.0000",
+        "yaw": "3.176"
+      },
+      "passed": false
+    },
+    {
+      "run": 6,
+      "before": {
+        "face": "rear",
+        "grabs": 4,
+        "height": 840,
+        "point": [
+          150,
+          524.26
+        ],
+        "state": "release",
+        "width": 1105
+      },
+      "after": {
+        "axle": "1.24538,-0.96637,-0.00000",
+        "end": "1.24538,-0.96637,-0.00000",
+        "events": [
+          {
+            "payout": -0.046999999999994824,
+            "speed": 0.7992876965663344,
+            "time": 0.7916666666666663,
+            "type": "release"
+          },
+          {
+            "index": 4,
+            "source": "mouse",
+            "time": 1.0416666666666654,
+            "type": "grab"
+          },
+          {
+            "payout": -0.06299999999999306,
+            "speed": 0.48743527396296055,
+            "time": 1.1749999999999985,
+            "type": "release"
+          }
+        ],
+        "face": "rear",
+        "grabs": 4,
+        "state": "return",
+        "stretch": "0.0001",
+        "yaw": "3.158"
+      },
+      "passed": false
+    },
+    {
+      "run": 7,
+      "before": {
+        "face": "rear",
+        "grabs": 4,
+        "height": 840,
+        "point": [
+          234.64,
+          734.32
+        ],
+        "state": "return",
+        "width": 1105
+      },
+      "after": {
+        "axle": "0.54702,-0.96637,0.00000",
+        "end": "0.54702,-0.96637,0.00000",
+        "events": [
+          {
+            "payout": -0.06299999999999306,
+            "speed": 0.48743527396296055,
+            "time": 1.1749999999999985,
+            "type": "release"
+          },
+          {
+            "index": 8,
+            "source": "mouse",
+            "time": 2.124999999999995,
+            "type": "grab"
+          },
+          {
+            "payout": -0.06622609654886591,
+            "speed": 0.08696894476771273,
+            "time": 2.258333333333328,
+            "type": "release"
+          }
+        ],
+        "face": "rear",
+        "grabs": 5,
+        "state": "release",
+        "stretch": "0.0003",
+        "yaw": "3.134"
+      },
+      "passed": true
+    },
+    {
+      "run": 8,
+      "before": {
+        "face": "rear",
+        "grabs": 5,
+        "height": 840,
+        "point": [
+          369,
+          805.67
+        ],
+        "state": "release",
+        "width": 1105
+      },
+      "after": {
+        "axle": "-0.69228,-0.96637,0.00000",
+        "end": "-0.69228,-0.96637,0.00000",
+        "events": [
+          {
+            "payout": -0.06622609654886591,
+            "speed": 0.08696894476771273,
+            "time": 2.258333333333328,
+            "type": "release"
+          },
+          {
+            "index": 1,
+            "source": "mouse",
+            "time": 2.474999999999994,
+            "type": "grab"
+          },
+          {
+            "payout": -0.08222609654886415,
+            "speed": 0.7354737431156132,
+            "time": 2.6083333333333267,
+            "type": "release"
+          }
+        ],
+        "face": "rear",
+        "grabs": 6,
+        "state": "release",
+        "stretch": "0.0004",
+        "yaw": "3.107"
+      },
+      "passed": true
+    },
+    {
+      "run": 9,
+      "before": {
+        "face": "rear",
+        "grabs": 6,
+        "height": 840,
+        "point": [
+          94.67,
+          664.99
+        ],
+        "state": "release",
+        "width": 1105
+      },
+      "after": {
+        "axle": "-1.13761,-0.96637,-0.00000",
+        "end": "-1.13761,-0.96637,-0.00000",
+        "events": [
+          {
+            "payout": -0.08222609654886415,
+            "speed": 0.7354737431156132,
+            "time": 2.6083333333333267,
+            "type": "release"
+          },
+          {
+            "index": 2,
+            "source": "mouse",
+            "time": 2.808333333333326,
+            "type": "grab"
+          },
+          {
+            "payout": -0.09822609654886238,
+            "speed": 0.22393786853462497,
+            "time": 2.941666666666659,
+            "type": "release"
+          }
+        ],
+        "face": "rear",
+        "grabs": 7,
+        "state": "release",
+        "stretch": "0.0001",
+        "yaw": "3.101"
+      },
+      "passed": true
+    },
+    {
+      "run": 10,
+      "before": {
+        "face": "rear",
+        "grabs": 7,
+        "height": 840,
+        "point": [
+          150.15,
+          737.41
+        ],
+        "state": "release",
+        "width": 1105
+      },
+      "after": {
+        "axle": "-2.07983,-0.96637,0.00000",
+        "end": "-2.07983,-0.96637,0.00000",
+        "events": [
+          {
+            "payout": -0.09822609654886238,
+            "speed": 0.22393786853462497,
+            "time": 2.941666666666659,
+            "type": "release"
+          },
+          {
+            "index": 13,
+            "source": "mouse",
+            "time": 3.1583333333333248,
+            "type": "grab"
+          },
+          {
+            "payout": -0.1062260965488615,
+            "speed": 0.5555120475430111,
+            "time": 3.2916666666666576,
+            "type": "release"
+          }
+        ],
+        "face": "rear",
+        "grabs": 8,
+        "state": "release",
+        "stretch": "0.0000",
+        "yaw": "3.106"
+      },
+      "passed": true
+    }
+  ],
+  "recovery": [
+    {
+      "run": 1,
+      "before": {
+        "face": "front",
+        "grabs": 8,
+        "point": [
+          265.2,
+          672
+        ],
+        "state": "rest"
+      },
+      "after": {
+        "axle": "-0.86488,-0.96637,0.00000",
+        "end": "-0.86488,-0.96637,0.00000",
+        "face": "front",
+        "grabs": 9,
+        "source": "mouse",
+        "state": "return"
+      },
+      "passed": true
+    },
+    {
+      "run": 2,
+      "before": {
+        "face": "front",
+        "grabs": 9,
+        "point": [
+          269.71,
+          789.6
+        ],
+        "state": "return"
+      },
+      "after": {
+        "axle": "-0.99872,-0.95827,0.00000",
+        "end": "-0.99872,-0.95827,0.00000",
+        "face": "front",
+        "grabs": 9,
+        "source": "mouse",
+        "state": "return"
+      },
+      "passed": false
+    },
+    {
+      "run": 3,
+      "before": {
+        "face": "front",
+        "grabs": 9,
+        "point": [
+          322.82,
+          786.55
+        ],
+        "state": "return"
+      },
+      "after": {
+        "axle": "-0.82776,-0.96637,0.00000",
+        "end": "-0.82776,-0.96637,0.00000",
+        "face": "front",
+        "grabs": 10,
+        "source": "mouse",
+        "state": "return"
+      },
+      "passed": true
+    },
+    {
+      "run": 4,
+      "before": {
+        "face": "front",
+        "grabs": 10,
+        "point": [
+          320.18,
+          789.6
+        ],
+        "state": "return"
+      },
+      "after": {
+        "axle": "-1.21559,-0.96637,0.00000",
+        "end": "-1.21559,-0.96637,0.00000",
+        "face": "front",
+        "grabs": 11,
+        "source": "mouse",
+        "state": "return"
+      },
+      "passed": true
+    },
+    {
+      "run": 5,
+      "before": {
+        "face": "front",
+        "grabs": 11,
+        "point": [
+          311.94,
+          789.6
+        ],
+        "state": "return"
+      },
+      "after": {
+        "axle": "-1.08670,-0.96637,-0.00000",
+        "end": "-1.08670,-0.96637,-0.00000",
+        "face": "front",
+        "grabs": 12,
+        "source": "mouse",
+        "state": "return"
+      },
+      "passed": true
+    },
+    {
+      "run": 6,
+      "before": {
+        "face": "front",
+        "grabs": 12,
+        "point": [
+          215.06,
+          789.6
+        ],
+        "state": "return"
+      },
+      "after": {
+        "axle": "-1.05237,-0.96637,0.00000",
+        "end": "-1.05237,-0.96637,0.00000",
+        "face": "front",
+        "grabs": 13,
+        "source": "mouse",
+        "state": "return"
+      },
+      "passed": true
+    }
+  ],
+  "resting": [
+    {
+      "run": 1,
+      "before": {
+        "face": "front",
+        "grabs": 13,
+        "point": [
+          265.2,
+          672
+        ],
+        "state": "rest"
+      },
+      "after": {
+        "axle": "-0.19057,-0.96637,0.00000",
+        "end": "-0.19057,-0.96637,0.00000",
+        "face": "front",
+        "grabs": 14,
+        "state": "release"
+      },
+      "passed": true
+    },
+    {
+      "run": 2,
+      "before": {
+        "face": "front",
+        "grabs": 14,
+        "point": [
+          265.2,
+          672
+        ],
+        "state": "rest"
+      },
+      "after": {
+        "axle": "0.27100,-0.77434,0.00000",
+        "end": "0.27100,-0.77434,0.00000",
+        "face": "front",
+        "grabs": 15,
+        "state": "release"
+      },
+      "passed": true
+    },
+    {
+      "run": 3,
+      "before": {
+        "face": "front",
+        "grabs": 15,
+        "point": [
+          265.2,
+          672
+        ],
+        "state": "rest"
+      },
+      "after": {
+        "axle": "0.27240,-0.84463,0.00000",
+        "end": "0.27240,-0.84463,0.00000",
+        "face": "front",
+        "grabs": 16,
+        "state": "release"
+      },
+      "passed": true
+    },
+    {
+      "run": 4,
+      "before": {
+        "face": "front",
+        "grabs": 16,
+        "point": [
+          265.2,
+          672
+        ],
+        "state": "rest"
+      },
+      "after": {
+        "axle": "0.04587,-0.96637,0.00000",
+        "end": "0.04587,-0.96637,0.00000",
+        "face": "front",
+        "grabs": 17,
+        "state": "release"
+      },
+      "passed": true
+    },
+    {
+      "run": 5,
+      "before": {
+        "face": "front",
+        "grabs": 17,
+        "point": [
+          265.2,
+          672
+        ],
+        "state": "rest"
+      },
+      "after": {
+        "axle": "0.27747,-0.81792,0.00000",
+        "end": "0.27747,-0.81792,0.00000",
+        "face": "front",
+        "grabs": 18,
+        "state": "release"
+      },
+      "passed": true
+    },
+    {
+      "run": 6,
+      "before": {
+        "face": "front",
+        "grabs": 18,
+        "point": [
+          265.2,
+          672
+        ],
+        "state": "rest"
+      },
+      "after": {
+        "axle": "0.27747,-0.81792,0.00000",
+        "end": "0.27747,-0.81792,0.00000",
+        "face": "front",
+        "grabs": 19,
+        "state": "release"
+      },
+      "passed": true
+    },
+    {
+      "run": 7,
+      "before": {
+        "face": "front",
+        "grabs": 19,
+        "point": [
+          265.2,
+          672
+        ],
+        "state": "rest"
+      },
+      "after": {
+        "axle": "-0.06192,-0.96637,0.00000",
+        "end": "-0.06192,-0.96637,0.00000",
+        "face": "front",
+        "grabs": 20,
+        "state": "release"
+      },
+      "passed": true
+    }
+  ]
+}

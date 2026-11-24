@@ -1,0 +1,35 @@
+{
+  "before": {
+    "body": "0.0341,-0.0465",
+    "pulse": "none",
+    "time": "0.000",
+    "yaw": "0.000"
+  },
+  "after": {
+    "body": "0.0341,-0.0465",
+    "cueHidden": false,
+    "events": [
+      {
+        "index": 0,
+        "interrupted": "rest",
+        "source": "keyboard",
+        "time": 25.25833333333254,
+        "type": "grab",
+        "yaw": 0
+      },
+      {
+        "payout": 0,
+        "speed": 0.035681355851897086,
+        "time": 25.28333333333254,
+        "type": "release"
+      },
+      {
+        "time": 28.441666666665693,
+        "type": "rest"
+      }
+    ],
+    "pulse": "none",
+    "time": "0.000",
+    "yaw": "0.000"
+  }
+}

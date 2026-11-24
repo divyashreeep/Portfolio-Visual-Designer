@@ -1,0 +1,57 @@
+[
+  {
+    "viewport": [
+      1440,
+      900
+    ],
+    "lengthRatio": 1.5476803558287646,
+    "interactions": 24,
+    "peakStretch": 0.009387481579387957,
+    "peakPayout": 0.005999999999999339,
+    "settled": "rest"
+  },
+  {
+    "viewport": [
+      1105,
+      840
+    ],
+    "lengthRatio": 1.5463664417612621,
+    "interactions": 24,
+    "peakStretch": 0.006302005159283919,
+    "peakPayout": 0.0039999999999995595,
+    "settled": "rest"
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "lengthRatio": 1.4748430807190642,
+    "interactions": 24,
+    "peakStretch": 0.012886271418710127,
+    "peakPayout": 0.0020000000000000018,
+    "settled": "rest"
+  },
+  {
+    "viewport": [
+      320,
+      568
+    ],
+    "lengthRatio": 1.4876131576187728,
+    "interactions": 24,
+    "peakStretch": 0.03935573687017224,
+    "peakPayout": 0.0020000000000000018,
+    "settled": "rest"
+  },
+  {
+    "viewport": [
+      768,
+      1024
+    ],
+    "lengthRatio": 1.5293382918663438,
+    "interactions": 24,
+    "peakStretch": 0.030048275210236453,
+    "peakPayout": 0.0020000000000000018,
+    "settled": "rest"
+  }
+]

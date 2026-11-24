@@ -1,0 +1,232 @@
+[
+  {
+    "cycle": 1,
+    "before": {
+      "cueHidden": false,
+      "point": [
+        264.8599853515625,
+        670.4000244140625
+      ],
+      "time": "42.575"
+    },
+    "during": {
+      "cueHidden": true,
+      "idle": "false",
+      "state": "release"
+    },
+    "after": {
+      "axle": "0.25759,-0.35095,0.00000",
+      "cueHidden": false,
+      "end": "0.25759,-0.35095,0.00000",
+      "idle": "true",
+      "time": "42.708"
+    }
+  },
+  {
+    "cycle": 2,
+    "before": {
+      "cueHidden": false,
+      "point": [
+        265.20001220703125,
+        672
+      ],
+      "time": "42.725"
+    },
+    "during": {
+      "cueHidden": true,
+      "idle": "false",
+      "state": "release"
+    },
+    "after": {
+      "axle": "0.25760,-0.35101,0.00000",
+      "cueHidden": false,
+      "end": "0.25760,-0.35101,0.00000",
+      "idle": "true",
+      "time": "42.817"
+    }
+  },
+  {
+    "cycle": 3,
+    "before": {
+      "cueHidden": false,
+      "point": [
+        265.20001220703125,
+        672
+      ],
+      "time": "42.833"
+    },
+    "during": {
+      "cueHidden": true,
+      "idle": "false",
+      "state": "release"
+    },
+    "after": {
+      "axle": "0.25761,-0.35101,0.00000",
+      "cueHidden": false,
+      "end": "0.25761,-0.35101,0.00000",
+      "idle": "true",
+      "time": "42.925"
+    }
+  },
+  {
+    "cycle": 4,
+    "before": {
+      "cueHidden": false,
+      "point": [
+        265.20001220703125,
+        672
+      ],
+      "time": "42.942"
+    },
+    "during": {
+      "cueHidden": true,
+      "idle": "false",
+      "state": "release"
+    },
+    "after": {
+      "axle": "0.25763,-0.35091,0.00000",
+      "cueHidden": false,
+      "end": "0.25763,-0.35091,0.00000",
+      "idle": "true",
+      "time": "43.058"
+    }
+  },
+  {
+    "cycle": 5,
+    "before": {
+      "cueHidden": false,
+      "point": [
+        265.20001220703125,
+        672
+      ],
+      "time": "43.075"
+    },
+    "during": {
+      "cueHidden": true,
+      "idle": "false",
+      "state": "release"
+    },
+    "after": {
+      "axle": "0.25760,-0.35112,0.00000",
+      "cueHidden": false,
+      "end": "0.25760,-0.35112,0.00000",
+      "idle": "true",
+      "time": "43.125"
+    }
+  },
+  {
+    "cycle": 6,
+    "rapidRegrab": false,
+    "before": {
+      "cueHidden": false,
+      "point": [
+        263.8599853515625,
+        672.4000244140625
+      ]
+    },
+    "during": {
+      "cueHidden": true,
+      "idle": "false",
+      "state": "release"
+    },
+    "after": {
+      "axle": "0.25757,-0.35120,-0.00000",
+      "cueHidden": false,
+      "end": "0.25757,-0.35120,-0.00000",
+      "idle": "true",
+      "time": "59.200"
+    }
+  },
+  {
+    "cycle": 7,
+    "rapidRegrab": true,
+    "before": {
+      "cueHidden": false,
+      "point": [
+        265.20001220703125,
+        672
+      ]
+    },
+    "during": {
+      "cueHidden": true,
+      "idle": "false",
+      "state": "release"
+    },
+    "after": {
+      "axle": "0.25759,-0.35116,0.00000",
+      "cueHidden": false,
+      "end": "0.25759,-0.35116,0.00000",
+      "idle": "true",
+      "time": "59.258"
+    }
+  },
+  {
+    "cycle": 8,
+    "rapidRegrab": false,
+    "before": {
+      "cueHidden": false,
+      "point": [
+        265.20001220703125,
+        667
+      ]
+    },
+    "during": {
+      "cueHidden": true,
+      "idle": "false",
+      "state": "release"
+    },
+    "after": {
+      "axle": "0.25760,-0.35115,-0.00000",
+      "cueHidden": false,
+      "end": "0.25760,-0.35115,-0.00000",
+      "idle": "true",
+      "time": "59.325"
+    }
+  },
+  {
+    "cycle": 9,
+    "rapidRegrab": true,
+    "before": {
+      "cueHidden": false,
+      "point": [
+        265.20001220703125,
+        667
+      ]
+    },
+    "during": {
+      "cueHidden": true,
+      "idle": "false",
+      "state": "release"
+    },
+    "after": {
+      "axle": "0.25758,-0.35121,0.00000",
+      "cueHidden": false,
+      "end": "0.25758,-0.35121,0.00000",
+      "idle": "true",
+      "time": "59.442"
+    }
+  },
+  {
+    "cycle": 10,
+    "rapidRegrab": false,
+    "before": {
+      "cueHidden": false,
+      "point": [
+        265.20001220703125,
+        667
+      ]
+    },
+    "during": {
+      "cueHidden": true,
+      "idle": "false",
+      "state": "release"
+    },
+    "after": {
+      "axle": "0.25757,-0.35131,0.00000",
+      "cueHidden": false,
+      "end": "0.25757,-0.35131,0.00000",
+      "idle": "true",
+      "time": "59.592"
+    }
+  }
+]
