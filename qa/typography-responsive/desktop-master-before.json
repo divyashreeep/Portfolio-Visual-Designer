@@ -1,0 +1,36 @@
+[
+  {
+    "font": "115.2px",
+    "letterSpacing": "-3.456px",
+    "lineHeight": "101.376px",
+    "rect": {
+      "bottom": 415.5,
+      "height": 202.75,
+      "left": 274.546875,
+      "right": 805.625,
+      "top": 212.75,
+      "width": 531.078125,
+      "x": 274.546875,
+      "y": 212.75
+    },
+    "weight": "600",
+    "wordSpacing": "6.912px"
+  },
+  {
+    "font": "112.32px",
+    "letterSpacing": "-5.0544px",
+    "lineHeight": "112.32px",
+    "rect": {
+      "bottom": 999,
+      "height": 112.3125,
+      "left": 1396.8125,
+      "right": 1777.921875,
+      "top": 886.6875,
+      "width": 381.109375,
+      "x": 1396.8125,
+      "y": 886.6875
+    },
+    "weight": "600",
+    "wordSpacing": "6.7392px"
+  }
+]

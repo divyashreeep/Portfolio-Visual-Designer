@@ -3,8 +3,37 @@
 @font-face{font-family:'Clash Display';src:url('/fonts/ClashDisplay-Semibold.woff2') format('woff2');font-weight:600;font-style:normal;font-display:swap}
 .sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .hero-ui{display:contents;font-family:'Clash Display',sans-serif}.hero-headline{margin:0;font:inherit}.home-bit{opacity:var(--home);pointer-events:none}.arrived .home-bit{pointer-events:auto}
-.hero-heading-top,.hero-heading-bottom{position:absolute;display:block;color:#F8F7F3;font-family:'Clash Display',sans-serif;font-size:clamp(32px,5.85vw,124px);font-weight:600;line-height:1;letter-spacing:-.045em;word-spacing:.06em;white-space:nowrap;text-align:left;pointer-events:none!important}
-.hero-heading-top{left:14.3%;top:19.7%;z-index:1;font-size:clamp(32px,6vw,128px);line-height:.88;letter-spacing:-.03em}.hero-heading-bottom{right:7.4%;bottom:7.5%;z-index:3}
+/* Measure the actual hero, never recording pixels or devicePixelRatio.
+   The >=1536px desktop band retains the approved 6% / 5.85% sizes.
+   Taller laptops receive a bounded height correction against the 16:9 master.
+   A shared narrow-screen floor replaces the former 650px font-size jump. */
+.stage{container-type:size}
+.hero-headline{
+ --hero-type-boost:max(0px,min(calc(16px - 1.0416667cqw),calc(1.1851852cqh - .6666667cqw)));
+ --hero-type-unit:calc(1cqw + var(--hero-type-boost));
+ --hero-type-floor:min(9.8cqw,58px);
+ --hero-type-compact:clamp(0px,calc(1100px - 100cqw),450px);
+ --hero-type-left:clamp(6cqw,calc(14.3cqw - var(--hero-type-compact) * .1198889),14.3cqw);
+ --hero-type-top:clamp(13cqh,calc(19.7cqh - var(--hero-type-compact) * .1257),19.7cqh);
+ --hero-type-right:clamp(5.5cqw,calc(7.4cqw - var(--hero-type-compact) * .0274444),7.4cqw);
+ --hero-type-bottom:clamp(7.5cqh,calc(7.5cqh + var(--hero-type-compact) * .31),24cqh);
+}
+.hero-heading-top,.hero-heading-bottom{position:absolute;display:block;color:#F8F7F3;font-family:'Clash Display',sans-serif;font-size:clamp(32px,max(calc(5.85 * var(--hero-type-unit)),var(--hero-type-floor)),124px);font-weight:600;line-height:1;letter-spacing:-.045em;word-spacing:.06em;white-space:nowrap;text-align:left;pointer-events:none!important}
+.hero-heading-top{left:var(--hero-type-left);top:var(--hero-type-top);z-index:1;font-size:clamp(32px,max(calc(6 * var(--hero-type-unit)),var(--hero-type-floor)),128px);line-height:.88;letter-spacing:-.03em}.hero-heading-bottom{right:var(--hero-type-right);bottom:var(--hero-type-bottom);z-index:3}
+.hero-headline,.hero-headline *{pointer-events:none!important}
+.hero-headline[data-type-active='false'] .headline-slot{visibility:hidden}
+.headline-slot{display:grid;perspective:clamp(480px,55vw,800px);transform-style:preserve-3d}
+.hero-heading-top.headline-slot{perspective-origin:0 0}.hero-heading-bottom.headline-slot{perspective-origin:100% 100%}
+.headline-mask{display:block;overflow:visible;padding:.12em .08em;margin:-.12em -.08em;transform-style:preserve-3d}
+.headline-face{display:block;backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.hero-heading-top .headline-face{transform-origin:0 0}.hero-heading-bottom .headline-face{transform-origin:100% 100%}
+.headline-face--final{visibility:hidden}
+.headline-mask--initial{position:absolute;width:max-content;font:inherit;letter-spacing:inherit;word-spacing:inherit}
+.hero-heading-top .headline-mask--initial{left:0;top:0}
+.hero-heading-bottom .headline-mask--initial{right:0;bottom:0}
+.headline-lab{position:absolute;z-index:20;top:12px;right:12px;display:flex;gap:12px;align-items:center;padding:12px;background:#F8F7F3;color:#0000CC;font:12px 'Clash Display',sans-serif;pointer-events:auto}
+.headline-lab input{width:65px;margin-left:8px}.headline-lab button{padding:8px;border:1px solid}
+@media(max-width:650px){.headline-lab{left:10px;right:10px;gap:6px;font-size:10px;flex-wrap:wrap}.headline-lab button{padding:5px}}
 .hero-nav{position:absolute;left:3.8%;bottom:5.1%;z-index:5;display:flex;flex-direction:column;align-items:flex-start;gap:6px;font:500 clamp(11px,.95vw,14px)/1.2 'Clash Display',sans-serif;letter-spacing:.01em;word-spacing:.20em;color:#F8F7F3}
 .hero-nav button{padding:3px 0}.hero-nav button::after{content:'';display:block;width:100%;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .18s}.hero-nav button:hover::after,.hero-nav button:focus-visible::after{transform:scaleX(1)}
 .hero-cue{position:absolute;left:0;top:0;z-index:5;width:0;height:0;color:#F8F7F3;pointer-events:none!important;transition:opacity .35s cubic-bezier(.2,.7,.2,1)}
@@ -21,8 +50,7 @@
 .hero-input-surface{position:absolute;inset:0;z-index:4;pointer-events:none}.hero-thread-input{width:100%;height:100%;overflow:hidden;pointer-events:none}.thread-hit{fill:none;stroke:transparent;stroke-width:52;pointer-events:stroke;cursor:grab;touch-action:none}.hero-input-surface[data-state='grab'] .thread-hit,.hero-input-surface[data-state='play'] .thread-hit{cursor:grabbing}.thread-hover{fill:none;stroke:#F8F7F3;stroke-width:3;opacity:0;pointer-events:none}.hero-input-surface:has(.thread-hit:hover) .thread-hover{opacity:.12}
 .hero-dialog{font-family:'Clash Display',sans-serif;max-width:560px;padding:64px 48px 45px}.hero-dialog h2{font-family:inherit;font-size:clamp(36px,5vw,58px);font-weight:500;letter-spacing:-.045em;margin:26px 0 22px}.hero-dialog p{font-family:inherit}.hero-dialog-label{font-size:11px!important;letter-spacing:.06em}.hero-dialog-close{position:absolute;right:25px;top:22px;font-size:11px;border-bottom:1px solid}
 .arrived .rig>path,.arrived .rig>g{visibility:hidden}
-@media(min-width:651px) and (max-width:1099px) and (max-aspect-ratio:1/1){.hero-heading-top{left:7.5%;top:10%}}
-@media(max-width:650px){.hero-heading-top,.hero-heading-bottom{font-size:clamp(32px,9.8vw,58px);letter-spacing:-.035em}.hero-heading-top{top:13%;left:6%}.hero-heading-bottom{right:5.5%;bottom:24%}.hero-nav{left:6%;bottom:5%;font-size:12px;gap:8px}.hero-instruction{font-size:13px}.thread-hit{stroke-width:80}.hero-dialog{padding:60px 28px 32px}}
+@media(max-width:650px){.hero-nav{left:6%;bottom:5%;font-size:12px;gap:8px}.hero-instruction{font-size:13px}.thread-hit{stroke-width:80}.hero-dialog{padding:60px 28px 32px}}
 @media(prefers-reduced-motion:reduce){.hero-cue,.hero-nav button::after{transition:none}.endpoint-ring{animation:none}}
 
 .toy-lab{position:absolute;z-index:10;top:80px;right:20px;background:#F8F7F3;color:#0000CC;padding:16px;max-width:160px;font:12px "Clash Display",sans-serif}.toy-lab p{margin:0 0 10px}.toy-lab button{display:block;padding:6px 0}.toy-lab output{display:block;margin-top:10px}.toy-prototype .hero-heading-top,.toy-prototype .hero-heading-bottom,.toy-prototype .hero-nav{visibility:hidden}

@@ -1,5 +1,6 @@
 import {useEffect,useRef,useState} from 'react';
 import './hero.css';
+import {HeroHeadline} from './HeroHeadline.jsx';
 const SAMPLES=84;
 export function HomeHero({controller,active,reduced}){
  const svg=useRef(),pointer=useRef(null),bounds=useRef(null),dialog=useRef(),demoTimer=useRef(),[cueVisible,setCueVisible]=useState(true),[view,setView]=useState(null);
@@ -36,7 +37,7 @@ export function HomeHero({controller,active,reduced}){
  };
  return <>
   <div className="hero-ui" inert={!active} aria-hidden={!active}>
-   <h1 className="hero-headline" aria-label="Design is where I begin."><span className="hero-heading-top home-bit" aria-hidden="true">DESIGN IS<br/>WHERE</span><span className="hero-heading-bottom home-bit" aria-hidden="true">I BEGIN.</span></h1>
+   <HeroHeadline active={active} reduced={reduced}/>
    <nav className="hero-nav home-bit" aria-label="Portfolio"><button onClick={()=>setView('projects')}>PROJECTS</button><button onClick={()=>setView('about')}>ABOUT ME</button><button onClick={()=>setView('contact')}>CONTACT</button></nav>
    <div ref={e=>{controller.current.cue=e}} className={'hero-cue home-bit '+(cueVisible?'':'has-played')} data-reduced={reduced}>
     <button className="hero-endpoint" aria-label="Pull to play." aria-describedby="string-keyboard-help" onPointerEnter={()=>{controller.current.endpointHover=true;controller.current.invalidate?.()}} onPointerLeave={()=>{controller.current.endpointHover=false;controller.current.invalidate?.()}} onPointerDown={e=>down(e,true)} onPointerMove={move} onPointerUp={up} onPointerCancel={up} onLostPointerCapture={()=>{if(pointer.current!==null)release(true)}} onKeyDown={key} onBlur={()=>{if(controller.current.sim?.drag?.source==='keyboard')release()}} onClick={e=>{if(e.detail)return;const c=controller.current,s=c.sim;if(!s)return;if(s.drag){release();return}const start=[s.p[0],s.p[1]];s.grab(0,...start,'keyboard');c.gesture={kind:'Demo',age:0,duration:.45,start,index:0};first();c.invalidate?.()}}><span className="endpoint-ring"/><span className="endpoint-dot"/></button>

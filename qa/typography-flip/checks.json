@@ -1,0 +1,248 @@
+[
+  {
+    "time": 1,
+    "faces": [
+      {
+        "backface": "hidden",
+        "pointer": "none",
+        "text": "PORTF",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "visibility": "visible"
+      },
+      {
+        "backface": "hidden",
+        "pointer": "none",
+        "text": "DESIGN ISWHERE",
+        "transform": "matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1)",
+        "visibility": "visible"
+      },
+      {
+        "backface": "hidden",
+        "pointer": "none",
+        "text": "LIO",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "visibility": "visible"
+      },
+      {
+        "backface": "hidden",
+        "pointer": "none",
+        "text": "I BEGIN.",
+        "transform": "matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1)",
+        "visibility": "visible"
+      }
+    ]
+  },
+  {
+    "time": 1.85,
+    "faces": [
+      {
+        "backface": "hidden",
+        "pointer": "none",
+        "text": "PORTF",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 0.810431, -0.585834, 0, 0, 0.585834, 0.810431, 0, 0, 0, 0, 1)",
+        "visibility": "visible"
+      },
+      {
+        "backface": "hidden",
+        "pointer": "none",
+        "text": "DESIGN ISWHERE",
+        "transform": "matrix3d(1, 0, 0, 0, 0, -0.810431, 0.585834, 0, 0, -0.585834, -0.810431, 0, 0, 0, 0, 1)",
+        "visibility": "visible"
+      },
+      {
+        "backface": "hidden",
+        "pointer": "none",
+        "text": "LIO",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 0.971158, -0.238435, 0, 0, 0.238435, 0.971158, 0, 0, 0, 0, 1)",
+        "visibility": "visible"
+      },
+      {
+        "backface": "hidden",
+        "pointer": "none",
+        "text": "I BEGIN.",
+        "transform": "matrix3d(1, 0, 0, 0, 0, -0.971158, 0.238435, 0, 0, -0.238435, -0.971158, 0, 0, 0, 0, 1)",
+        "visibility": "visible"
+      }
+    ]
+  },
+  {
+    "time": 2.05,
+    "faces": [
+      {
+        "backface": "hidden",
+        "pointer": "none",
+        "text": "PORTF",
+        "transform": "matrix3d(1, 0, 0, 0, 0, -0.697439, -0.716644, 0, 0, 0.716644, -0.697439, 0, 0, 0, 0, 1)",
+        "visibility": "visible"
+      },
+      {
+        "backface": "hidden",
+        "pointer": "none",
+        "text": "DESIGN ISWHERE",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 0.697439, 0.716644, 0, 0, -0.716644, 0.697439, 0, 0, 0, 0, 1)",
+        "visibility": "visible"
+      },
+      {
+        "backface": "hidden",
+        "pointer": "none",
+        "text": "LIO",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 0.0935557, -0.995614, 0, 0, 0.995614, 0.0935557, 0, 0, 0, 0, 1)",
+        "visibility": "visible"
+      },
+      {
+        "backface": "hidden",
+        "pointer": "none",
+        "text": "I BEGIN.",
+        "transform": "matrix3d(1, 0, 0, 0, 0, -0.0935557, 0.995614, 0, 0, -0.995614, -0.0935557, 0, 0, 0, 0, 1)",
+        "visibility": "visible"
+      }
+    ]
+  },
+  {
+    "time": 2.8,
+    "faces": [
+      {
+        "backface": "hidden",
+        "pointer": "none",
+        "text": "PORTF",
+        "transform": "matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1)",
+        "visibility": "hidden"
+      },
+      {
+        "backface": "hidden",
+        "pointer": "none",
+        "text": "DESIGN ISWHERE",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "visibility": "visible"
+      },
+      {
+        "backface": "hidden",
+        "pointer": "none",
+        "text": "LIO",
+        "transform": "matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1)",
+        "visibility": "hidden"
+      },
+      {
+        "backface": "hidden",
+        "pointer": "none",
+        "text": "I BEGIN.",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "visibility": "visible"
+      }
+    ]
+  },
+  {
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "width": {
+      "scroll": 768,
+      "width": 768
+    },
+    "final": [
+      {
+        "pointer": "none",
+        "rect": {
+          "bottom": 183.484375,
+          "height": 81.09375,
+          "left": 57.59375,
+          "right": 270.03125,
+          "top": 102.390625,
+          "width": 212.4375,
+          "x": 57.59375,
+          "y": 102.390625
+        }
+      },
+      {
+        "pointer": "none",
+        "rect": {
+          "bottom": 947.203125,
+          "height": 44.921875,
+          "left": 558.75,
+          "right": 711.171875,
+          "top": 902.28125,
+          "width": 152.421875,
+          "x": 558.75,
+          "y": 902.28125
+        }
+      }
+    ]
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": {
+      "scroll": 390,
+      "width": 390
+    },
+    "final": [
+      {
+        "pointer": "none",
+        "rect": {
+          "bottom": 176.96875,
+          "height": 67.25,
+          "left": 23.390625,
+          "right": 197.875,
+          "top": 109.71875,
+          "width": 174.484375,
+          "x": 23.390625,
+          "y": 109.71875
+        }
+      },
+      {
+        "pointer": "none",
+        "rect": {
+          "bottom": 641.453125,
+          "height": 38.21875,
+          "left": 235.8125,
+          "right": 368.5625,
+          "top": 603.234375,
+          "width": 132.75,
+          "x": 235.8125,
+          "y": 603.234375
+        }
+      }
+    ]
+  },
+  {
+    "viewport": {
+      "width": 320,
+      "height": 568
+    },
+    "width": {
+      "scroll": 320,
+      "width": 320
+    },
+    "final": [
+      {
+        "pointer": "none",
+        "rect": {
+          "bottom": 130.140625,
+          "height": 56.3125,
+          "left": 19.1875,
+          "right": 165.28125,
+          "top": 73.828125,
+          "width": 146.09375,
+          "x": 19.1875,
+          "y": 73.828125
+        }
+      },
+      {
+        "pointer": "none",
+        "rect": {
+          "bottom": 431.6875,
+          "height": 32,
+          "left": 191.265625,
+          "right": 302.40625,
+          "top": 399.6875,
+          "width": 111.140625,
+          "x": 191.265625,
+          "y": 399.6875
+        }
+      }
+    ]
+  }
+]
