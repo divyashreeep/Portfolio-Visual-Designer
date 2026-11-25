@@ -1,0 +1,16 @@
+{
+  "turned": {
+    "face": "rear",
+    "mode": "video",
+    "status": "suspended",
+    "time": "0.86"
+  },
+  "returned": {
+    "axle": "0.43224,-0.35100,-0.00000",
+    "end": "0.43224,-0.35100,-0.00000",
+    "face": "front",
+    "mode": "video",
+    "status": "playing",
+    "time": "0.43"
+  }
+}

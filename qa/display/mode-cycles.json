@@ -1,0 +1,30 @@
+{
+  "failure": {
+    "mode": "eyes",
+    "open": "1.000",
+    "ready": "false",
+    "status": "video-unavailable"
+  },
+  "transitions": [
+    {
+      "mode": "video",
+      "performance": "{\"frames\":285,\"median\":16.699999999254942,\"p95\":17.100000001490116,\"mean\":16.666315789468456,\"geometries\":39,\"textures\":10,\"dpr\":1}",
+      "ready": "true"
+    },
+    {
+      "mode": "video",
+      "performance": "{\"frames\":285,\"median\":16.699999999254942,\"p95\":17.100000001490116,\"mean\":16.666315789468456,\"geometries\":39,\"textures\":10,\"dpr\":1}",
+      "ready": "true"
+    },
+    {
+      "mode": "video",
+      "performance": "{\"frames\":285,\"median\":16.699999999254942,\"p95\":17.100000001490116,\"mean\":16.666315789468456,\"geometries\":39,\"textures\":10,\"dpr\":1}",
+      "ready": "true"
+    },
+    {
+      "mode": "video",
+      "performance": "{\"frames\":285,\"median\":16.699999999254942,\"p95\":17.100000001490116,\"mean\":16.666315789468456,\"geometries\":39,\"textures\":10,\"dpr\":1}",
+      "ready": "true"
+    }
+  ]
+}

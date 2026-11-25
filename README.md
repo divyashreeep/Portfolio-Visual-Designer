@@ -64,3 +64,27 @@ Current evidence: `qa/final-correction/REVIEW.md`, named desktop states, desktop
 Repository: https://github.com/divyashreeep/Portfolio-Visual-Designer — production source branch: `main`.
 
 Vercel settings: framework `Vite`, build command `npm run build`, output directory `dist`, install command `npm ci`. The project root contains `package.json` and `vite.config.js`; no server runtime or environment variables are needed. The connected Vercel project handles deployment after pushes to `main`.
+
+## Front eyes and video display
+
+`src/display/displayConfig.js` is the single media configuration location. `videoSource` defaults to `null`: no missing file is requested and eyes remain the default. Put the final MP4/WebM in `public/videos/`, then set its URL there or through the controller. Selecting a source does not load or automatically show it.
+
+The controller is available after the GLB loads as `window.yoyoDisplay`:
+
+```js
+const display = window.yoyoDisplay;
+display.setVideoSource('/videos/yoyo-display.mp4');
+display.setVideoFit('cover'); // or 'contain'
+display.setVideoLoop(true);
+await display.playVideo(); // explicitly selects video and requests playback
+display.pauseVideo();
+await display.restartVideo();
+display.returnToEyes();
+// Also available: setDisplayMode('eyes' | 'video'), getState(), blink().
+```
+
+`setDisplayMode('video')` prepares a paused first frame; `playVideo()` requests playback and reports whether it started. A replacement source fades the valid old frame out before loading the new resource. Check `getState()` for readiness, status and playback errors. Muted inline playback is the default; explicit playback can be retried from a user gesture if the browser blocks it. Cross-origin video needs suitable CORS headers. The source stays unloaded until video mode/playback is requested. Returning to eyes pauses video; turning the front away or hiding the page suspends it, with intent-preserving resumption.
+
+`YoyoDisplay.js` owns front-only original eye animation, the substrate shader extension and media lifecycle. `FaceExpression.js` controls bounded gaze, natural blink timing and modest play reactions. The rear, original GLB, lighting, physics and idle loop are preserved. There is no automatic video trigger or production video-control UI.
+
+`?hero=1&displayLab=1&heroDebug=1` exposes authoring controls. Development builds alone include “Generate test video”, a local labelled WebM generator; its code and media are excluded from production. The clip exists only in browser memory. Run `node scripts/check-display.mjs`; see `qa/display/REVIEW.md` for actual browser evidence and validation limits.

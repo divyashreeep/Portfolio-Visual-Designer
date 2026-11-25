@@ -6,6 +6,7 @@ import { SvgHands } from './SvgHands.jsx';
 import { updateRig } from './StringRig.js';
 import { CONFIG } from './choreography.js';
 import {HomeHero} from './hero/HomeHero.jsx';
+import {DisplayLab} from './display/DisplayLab.jsx';
 import {HeroThread,createHeroController} from './hero/HeroThread.jsx';
 import {ToyLab} from './hero/ToyLab.jsx';
 class RenderBoundary extends Component {
@@ -70,6 +71,7 @@ export default function PortfolioIntro(){
     </Canvas></RenderBoundary>
     <svg aria-hidden="true" style={{position:'absolute',inset:0,width:'100%',height:'100%',zIndex:1,pointerEvents:'none'}}><use href="#hands-vector-source"/><g ref={wraps} data-finger-wraps="true" fill="none" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">{Array.from({length:8},(_,i)=><path key={i}/>)}</g></svg>
     <HomeHero controller={hero} active={finished} reduced={reduced}/>
+    {finished&&new URLSearchParams(location.search).has('displayLab')&&<DisplayLab/>}
     {finished&&new URLSearchParams(location.search).has('prototype')&&<ToyLab controller={hero}/>}
     {!finished&&<div className="intro-controls"><span role="status">{assetError||((ready&&handsReady)?'A little play, before the work.':'Preparing a little play…')}</span><button onClick={skip}>Skip intro</button><i/></div>}
     {new URLSearchParams(location.search).has('debug')&&<output ref={meter} style={{position:'absolute',top:100,left:20,color:'#888',fontSize:12}}>Measuring frame intervals…</output>}
